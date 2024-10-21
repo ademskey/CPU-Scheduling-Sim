@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": ["sample_io/input/input-3"],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/parallels/Desktop/CS_360/PA_2/pa-2-ademskey",
+      "program": "/home/parallels/Desktop/CS_360/PA_2/pa-2-ademskey/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
